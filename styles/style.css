@@ -10,7 +10,7 @@ li {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins";
   color: #333;
   line-height: 1.6;
 }
@@ -136,45 +136,6 @@ header {
   font-size: 1.2rem;
   line-height: 1.6;
   max-width: 80%;
-}
-
-.questionario-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.questionario-container h2 {
-  margin-bottom: 2rem;
-  color: #1a5b8c;
-}
-
-.questionario-container form {
-  color: #1a5b8c;
-}
-
-.questionario-container p {
-  color: #1a5b8c;
-  font-size: 18px;
-}
-
-.btn-questionario {
-  background: #1a5b8c;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-top: 1rem;
-  padding: 0.7rem 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.btn-questionario:hover {
-  background: #003399;
 }
 
 .sintomas-container {
@@ -415,4 +376,8 @@ header {
   color: #1a5b8c;
   text-decoration: none;
   list-style: none;
+}
+
+ol {
+  font-family: "Poppins";
 }

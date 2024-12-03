@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/formulario.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="/images/logo.PNG" alt="" srcset=""></div>
+    </nav>
+  </header>
+  <div class="questionario-container" id="questionario">
+    <section>
+      <h2 class="questionario-titulo">Questionário de Bem-Estar Mental (SRQ-20)</h2>
+      <p class="questionario-intro">Teste que avalia o sofrimento mental. Por favor, leia estas instruções antes de preencher as questões abaixo. É
+        muito importante que todos que estão preenchendo o questionário sigam as mesmas instruções.
+      </p>
+
+      <h2>instruções</h2>
+      <p>Estas questões são relacionadas a certas dores e problemas que podem ter lhe incomodado nos últimos 30
+        dias. Se você acha que a questão se aplica a você e você teve o problema descrito nos últimos 30 dias
+        responda SIM. Por outro lado, se a questão não se aplica a você e você não teve o problema nos últimos 30
+        dias, responda NÃO.
+        <strong><br>OBS: Lembre-se que o diagnóstico definitivo só pode ser fornecido por um profissional.</strong>
+      </p>
+
+      <form id="srqForm" class="form">
+        <div>
+          <label>1. Você tem dores de cabeça freqüente?</label><br>
+          <input type="radio" name="q1" value="sim"> Sim
+          <input type="radio" name="q1" value="nao"> Não
+        </div>
+        <div>
+          <label>2. Tem falta de apetite?</label><br>
+          <input type="radio" name="q2" value="sim"> Sim
+          <input type="radio" name="q2" value="nao"> Não
+        </div>
+        <div>
+          <label>3. Dorme mal?</label><br>
+          <input type="radio" name="q3" value="sim"> Sim
+          <input type="radio" name="q3" value="nao"> Não
+        </div>
+        <div>
+          <label>4. Assusta-se com facilidade?</label><br>
+          <input type="radio" name="q4" value="sim"> Sim
+          <input type="radio" name="q4" value="nao"> Não
+        </div>
+        <div>
+          <label>5. Tem tremores nas mãos?</label><br>
+          <input type="radio" name="q5" value="sim"> Sim
+          <input type="radio" name="q5" value="nao"> Não
+        </div>
+        <div>
+          <label>6. Sente-se nervoso (a), tenso (a) ou preocupado (a)?</label><br>
+          <input type="radio" name="q6" value="sim"> Sim
+          <input type="radio" name="q6" value="nao"> Não
+        </div>
+        <div>
+          <label>7. Tem má digestão?</label><br>
+          <input type="radio" name="q7" value="sim" required> Sim
+          <input type="radio" name="q7" value="nao" required> Não
+        </div>
+        <div>
+          <label>8. Tem dificuldades de pensar com clareza?</label><br>
+          <input type="radio" name="q8" value="sim" required> Sim
+          <input type="radio" name="q8" value="nao" required> Não
+        </div>
+        <div>
+          <label>9. Tem se sentido triste ultimamente?</label><br>
+          <input type="radio" name="q9" value="sim" required> Sim
+          <input type="radio" name="q9" value="nao" required> Não
+        </div>
+        <div>
+          <label>10. Tem chorado mais do que costume?</label><br>
+          <input type="radio" name="q10" value="sim" required> Sim
+          <input type="radio" name="q10" value="nao" required> Não
+        </div>
+        <div>
+          <label>11. Encontra dificuldades para realizar com satisfação
+            Suas atividades diárias?</label><br>
+          <input type="radio" name="q11" value="sim" required> Sim
+          <input type="radio" name="q11" value="nao" required> Não
+        </div>
+        <div>
+          <label>12. Tem dificuldades para tomar decisões?</label><br>
+          <input type="radio" name="q12" value="sim" required> Sim
+          <input type="radio" name="q12" value="nao" required> Não
+        </div>
+        <div>
+          <label>13. Tem dificuldades no serviço (seu trabalho é penoso,
+            lhe causa- sofrimento?)</label><br>
+          <input type="radio" name="q13" value="sim" required> Sim
+          <input type="radio" name="q13" value="nao" required> Não
+        </div>
+        <div>
+          <label>14. É incapaz de desempenhar um papel útil em sua vida?</label><br>
+          <input type="radio" name="q14" value="sim" required> Sim
+          <input type="radio" name="q14" value="nao" required> Não
+        </div>
+        <div>
+          <label>15. Tem perdido o interesse pelas coisas?</label><br>
+          <input type="radio" name="q15" value="sim" required> Sim
+          <input type="radio" name="q15" value="nao" required> Não
+        </div>
+        <div>
+          <label>16. Você se sente uma pessoa inútil, sem préstimo?</label><br>
+          <input type="radio" name="q16" value="sim" required> Sim
+          <input type="radio" name="q16" value="nao" required> Não
+        </div>
+        <div>
+          <label>17. Tem tido idéia de acabar com a vida?</label><br>
+          <input type="radio" name="q17" value="sim" required> Sim
+          <input type="radio" name="q17" value="nao" required> Não
+        </div>
+        <div>
+          <label>18. Sente-se cansado (a) o tempo todo?</label><br>
+          <input type="radio" name="q18" value="sim" required> Sim
+          <input type="radio" name="q18" value="nao" required> Não
+        </div>
+        <div>
+          <label>19. Você se cansa com facilidade?</label><br>
+          <input type="radio" name="q19" value="sim" required> Sim
+          <input type="radio" name="q19" value="nao" required> Não
+        </div>
+        <div>
+          <label>20. Têm sensações desagradáveis no estomago?</label><br>
+          <input type="radio" name="q20" value="sim" required> Sim
+          <input type="radio" name="q20" value="nao" required> Não
+        </div>
+
+        <div>
+          <button type="button" class="btn-questionario" onclick="calcularPontuacao()">Enviar</button>
+        </div>
+      </form>
+
+      </form>
+      <div id="resultado" class="resultado-container"></div>
+      <div class="links-resultado">
+        <a href="/pages/pagina-resultado.html" class="link-pagina">SE SUA PONTUAÇÃO FOR MENOR DO QUE 7: CLIQUE AQUI</a><br>
+        <a href="/pages/pagina.html">SE SUA PONTUAÇÃO FOR MAIOR OU IGUAL A 7: CLIQUE AQUI</a>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>EducaMente</h3>
+        <p>Cuidar de quem ensina é essencial para quem aprende.</p>
+      </div>
+      <div class="footer-links">
+
+      </div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>Email: <a href="mailto:contato@educamente.com">contato@educamente.com</a></p>
+        <p>Telefone: (81) 99544-0109</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 EducaMente. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+<script src="/script/formulario.js"></script>
+
+</html>

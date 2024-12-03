@@ -1,0 +1,139 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+img {
+  margin: 10px;
+}
+
+.questionario-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.questionario-container h2 {
+  margin-bottom: 2rem;
+  color: #1a5b8c;
+}
+
+.questionario-container form {
+  color: #1a5b8c;
+}
+
+.questionario-container p {
+  color: #1a5b8c;
+  font-size: 18px;
+}
+
+.btn-questionario {
+  background: #1a5b8c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-questionario:hover {
+  background: #003399;
+}
+
+.footer {
+  background-color: #1a5b8c;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.footer-info h3,
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.footer-info p {
+  max-width: 400px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #cce0ff;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #cce0ff;
+  padding-top: 1rem;
+  color: #cce0ff;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.resultado-container {
+  margin-top: 20px;
+}
+
+.resultado-container h1 {
+  color: #1a5b8c;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.resultado-container h1 span {
+  color: #1a5b8c;
+}
+
+.links-resultado a {
+  text-decoration: none;
+  color: #1a5b8c;
+  font-weight: bold;
+}

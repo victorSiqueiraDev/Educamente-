@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EducaMente</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
 </head>
 
@@ -14,8 +17,7 @@
     <nav class="navbar">
       <div class="logo"><img src="/images/logo.PNG" alt="" srcset=""></div>
       <ul class="nav-links">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#questionario">Questionário</a></li>
+        <li><a href="/pages/formulario.html">Questionário</a></li>
         <li><a href="#sintomas">Sintomas</a></li>
         <li><a href="#encaminhamento">Encaminhamento</a></li>
       </ul>
@@ -25,7 +27,7 @@
   <main>
     <section class="hero">
       <div class="text-content">
-        <h1>Cuidar de quem <span class="highlight">ensina</span> é essencial para quem <span class="highlight">aprende</span>.</h1>
+        <h1>Cuidar de quem <span class="highlight">ensina</span> <br>É essencial para quem <span class="highlight">aprende</span>.</h1>
         <p>Professores estão cada vez mais sobrecarregados, enfrentando desafios emocionais e a pressão do ambiente escolar. O EducaMente oferece um espaço dedicado para apoiar a saúde mental, proporcionando avaliação, conscientização e encaminhamento para o suporte adequado.</p>
 
       </div>
@@ -61,111 +63,7 @@
       </section>
     </main>
 
-    <div class="questionario-container" id="questionario">
-      <section>
-        <h2 class="questionario-titulo">Questionário de Bem-Estar Mental (SRQ-20)</h2>
-        <p class="questionario-intro">Por favor, responda as perguntas abaixo de acordo com como você se sente na maioria dos dias nas últimas 4 semanas:</p>
-        <form action="/submit-srq" method="POST">
-          <div class="form">
-            <ol>
-              <li>
-                <p> Você tem tido dificuldade para dormir?</p>
-                <label>
-                  <input type="radio" name="q1" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q1" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p> Você tem sentido cansaço constante?</p>
-                <label>
-                  <input type="radio" name="q2" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q2" value="não" required> Não
-                </label>
-              </li>
-              <!-- Repetir perguntas até a 20 -->
-              <li>
-                <p> Você tem dificuldade para tomar decisões?</p>
-                <label>
-                  <input type="radio" name="q3" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q3" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p> Tem falta de apetite?</p>
-                <label>
-                  <input type="radio" name="q4" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q4" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Tem se sentido triste ultimamente? </p>
-                <label>
-                  <input type="radio" name="q5" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q5" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Tem chorado mais do que costume? </p>
-                <label>
-                  <input type="radio" name="q6" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q6" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Tem dificuldades no serviço (seu trabalho é penoso,
-                  lhe causa- sofrimento?)</p>
-                <label>
-                  <input type="radio" name="q17" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q17" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Tem perdido o interesse pelas coisas?</p>
-                <label>
-                  <input type="radio" name="q8" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q8" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Você se sente uma pessoa inútil, sem préstimo?</p>
-                <label>
-                  <input type="radio" name="q9" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q9" value="não" required> Não
-                </label>
-              </li>
-              <li>
-                <p>Tem tido idéia de acabar com a vida?</p>
-                <label>
-                  <input type="radio" name="q10" value="sim" required> Sim
-                </label>
-                <label>
-                  <input type="radio" name="q10" value="não" required> Não
-                </label>
-              </li>
-            </ol>
-          </div>
-          <button type="submit" class="btn-questionario">Enviar Respostas</button>
-        </form>
-      </section>
-    </div>
+
 
     <section class="sintomas-container" id="sintomas">
       <h2>Sintomas de Cansaço Mental</h2>
@@ -206,7 +104,7 @@
       <p class="paragrafo-sintomas">
         Se você apresenta alguns desses sintomas frequentemente, é importante procurar apoio. O <strong>EducaMente</strong> pode ajudar a identificar a causa e fornecer os recursos adequados.
       </p>
-      <a href="#encaminhamento" class="btn-sintomas">Saiba Mais Sobre Encaminhamento</a>
+
   </main>
   </section>
   <section class="container-encaminhamento" id="encaminhamento">
@@ -235,7 +133,7 @@
       <p>
         Além do acompanhamento médico, é importante adotar práticas de autocuidado, como uma alimentação saudável, atividade física regular e momentos de lazer para reduzir o estresse.
       </p>
-      <a href="hhttps://www.vittude.com/blog/rotina-de-autocuidado/" class="btn-encaminhamento" target="_blank">Dicas de Autocuidado</a>
+      <a href="https://www.youtube.com/watch?v=bI4_8oJSbO4&t=38s" class="btn-encaminhamento" target="_blank">Dicas de Autocuidado</a>
     </div>
 
     <div class="referral-card">
@@ -256,7 +154,6 @@
       <div class="footer-links">
         <h4>Links Úteis</h4>
         <ul>
-          <li><a href="index.html" id="inicio">Início</a></li>
           <li><a href="#questionario">Questionário</a></li>
           <li><a href="#sintomas">Sintomas</a></li>
           <li><a href="#encaminhamento">Encaminhamento</a></li>
@@ -265,7 +162,7 @@
       <div class="footer-contact">
         <h4>Contato</h4>
         <p>Email: <a href="mailto:contato@educamente.com">contato@educamente.com</a></p>
-        <p>Telefone: (xx) xxxx-xxxx</p>
+        <p>Telefone: (81) 99544-0109</p>
       </div>
     </div>
     <div class="footer-bottom">
